@@ -1,6 +1,6 @@
 # Olá bem vindo!
 
-## Meu Portfólio para continuar praticando, e claro compartilhar alguns conhecimentos :wink:
+## Meu Portfólio para praticar, e claro compartilhar alguns conhecimentos :wink:
 
 #### Aqui você pode ver que fiz um bom trabalho. :heart:
 
