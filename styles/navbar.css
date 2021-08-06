@@ -1,0 +1,44 @@
+header {
+    height: 60px;
+    background-color: #18161d;
+    box-shadow: 0px 0px 4px rgba(143, 137, 137, 0.22);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+
+header .logo {
+    font-size: 26px;
+    cursor: pointer;
+    font-family: 'Risque', serif;
+    color: #aaa;
+    transition: all 0.4 ease;
+}
+header .logo:hover {
+    color: #fff;
+}
+
+header .links {
+    padding-right: 2rem;
+}
+header .links a {
+    padding-left: 10px;
+
+}
+
+header nav a {
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #aaa;
+    cursor: pointer;
+    transition: 0.4s ease all;
+}
+
+header nav a:hover {
+    background-color: #c6c6c6;
+    color: #000;
+}
