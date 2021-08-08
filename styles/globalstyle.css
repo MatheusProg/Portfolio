@@ -10,3 +10,7 @@ body {
     overflow: hidden;
     background-color: #000;
 }
+
+.container {
+    margin-left: 20px;
+}
