@@ -10,28 +10,37 @@
     <!-- Styled -->
     <link rel="stylesheet" href="./styles/globalstyle.css">
     <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/main.css">
     <title>Matheus Dias</title>
 </head>
 <body>
     <header>
-        
         <div class="container">
-            <a href="" class="logo" alt="logo">Matheus Dias</a>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">Contacts</a>
-                <a href="#">Aboult me</a>
+            <nav class="navbar">
+                <h1 id="navbar-logo">Matheus Dias</h1>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-menu">
+                        <li><a href="/" class="nav-links">HOME</a></li>
+                        <li><a href="/contacts" class="nav-links">CONTACTS</a></li>
+                        <li><a href="/aboultme" class="nav-links">ABOULT ME</a></li>
+                </ul>
             </nav>
-            
         </div>
     </header>
-    <div class="main">
+    <main>
         <div class="container">
             <div class="links">
                 <a href="#"><img src="./images/LinkeId.svg" alt="LinkedId"></a>
                 <a href="#"><img src="./images/Github.svg" alt="Github"></a>
             </div>
         </div>
-    </div>
+    </main>
+
+ <!-- Script Area -->
+    <script src="app.js"></script>
 </body>
 </html>

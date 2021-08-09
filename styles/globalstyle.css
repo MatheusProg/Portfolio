@@ -2,15 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
     font-family: "Arial", Times, serif;
+    text-decoration: none;
 }
 
 body {
-    overflow: hidden;
     background-color: #000;
-}
-
-.container {
-    margin-left: 20px;
 }
