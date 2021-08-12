@@ -87,6 +87,8 @@ main {
     justify-content: center;
     align-items: center;
     align-content: space-between;
+
+    margin-top: 15px;
 }
 
 .cards .card {
