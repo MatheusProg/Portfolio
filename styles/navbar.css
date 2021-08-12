@@ -1,8 +1,10 @@
-header {
+header .container {
     width: 100%;
+    background: #18161d;
+    box-shadow: 0px 5px 4px rgba(167, 152, 152, 0.22);
 }
 
-.navbar {
+header .navbar {
     display: grid;
     grid-template-columns: 0.2fr auto 1fr;
     align-items: center;
@@ -11,10 +13,7 @@ header {
     max-width: 1720px;
     margin: 0 auto;
 
-    background: #18161d;
-    box-shadow: 0px 5px 4px rgba(167, 152, 152, 0.22);
 }
-
 #navbar-logo {
     color: white;
     justify-content: start;
@@ -56,7 +55,7 @@ header {
 /* REsponsive area */
 
 @media screen and ( max-width: 768px ) {
-    header nav {
+    header .container {
         position: relative;
     }
 
@@ -71,10 +70,6 @@ header {
         left: -100%;
         opacity: 0;
         transition: all 0.5s ease;
-    }
-
-    #navbar-logo {
-        margin-left: 20px;
     }
 
     .nav-menu.active {
