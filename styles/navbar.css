@@ -1,4 +1,4 @@
-header .container {
+header {
     width: 100%;
     background: #18161d;
     box-shadow: 0px 5px 4px rgba(167, 152, 152, 0.22);
@@ -55,7 +55,7 @@ header .navbar {
 /* REsponsive area */
 
 @media screen and ( max-width: 768px ) {
-    header .container {
+    header {
         position: relative;
     }
 
