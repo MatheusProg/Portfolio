@@ -6,7 +6,9 @@ menu.addEventListener('click', function() {
     menuLinks.classList.toggle('active');
 })
 
+
 $('.owl-carousel').owlCarousel({
+    stagePadding: 60,
     loop:true,
     margin:10,
     nav:false,
@@ -15,10 +17,10 @@ $('.owl-carousel').owlCarousel({
             items:2
         },
         600:{
-            items:3
+            items:4
         },
         1000:{
-            items:5
+            items:6
         }
     }
 })
