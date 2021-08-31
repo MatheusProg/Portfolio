@@ -1,5 +1,5 @@
-section {
-    width: 100%;
+main {
+    width: 100vw;
     height: auto;
 }
 
@@ -7,27 +7,27 @@ section {
 /* Works Area */
 
 .works {
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    background: #0B1924;
-    padding-bottom: 20px;
-
 }
 
 .works .container {
     margin-top: 20px;
 }
-
-.carousel {
+.cards {
     margin-top: 20px;
 }
-
-.carousel .card {
+.cards .card {
     background: #fff;
     color: black;
+    width: 300px; /* half-width */
     height: 250px;
+    margin-right: 20px;
     text-align: center;
+    border-radius: 10px;
+}
+
+.aboult {
+    margin-top: 20px;
 }
 
 /* Footer area */

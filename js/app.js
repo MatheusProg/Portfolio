@@ -5,3 +5,16 @@ menu.addEventListener('click', function() {
     menu.classList.toggle('is-active');
     menuLinks.classList.toggle('active');
 })
+
+
+// Flickity
+
+var elem = document.querySelector('.cards');
+var flkty = new Flickity( elem, {
+  // options
+  cellAlign: 'center',
+  wrapAround: true,
+  contain: true,
+  autoPlay: true,
+  pageDots: false
+});
