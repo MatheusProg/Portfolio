@@ -1,8 +1,65 @@
+header {
+    width: 100%;
+    background: #18161d;
+    box-shadow: 0px 5px 4px rgba(167, 152, 152, 0.22);
+}
+
+header .container {
+    display: grid;
+    grid-template-columns: 0.2fr auto 1fr;
+    align-items: center;
+    height: 8vh;
+    width: 90%;
+    max-width: 1720px;
+
+}
+
+#navbar-logo {
+    color: white;
+    justify-content: start;
+    width: 165px;
+    font-family: 'Risque', serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+#navbar-logo:hover {
+    color: #c6c6c6;
+    transition: all 0.2s ease-out;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    list-style: none;
+    text-align: center;
+    width: 70%;
+    justify-self: end;
+}
+
+.nav-links {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+.nav-links:hover {
+    color: #c6c6c6;
+    transition: all 0.2s ease-out;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background: white;
+}
+
+/* main area */
+
 main {
     width: 100vw;
     height: auto;
 }
-
 
 /* Works Area */
 
