@@ -4,4 +4,4 @@
 
 #### Aqui você pode ver que fiz um bom trabalho. :heart:
 
-### Então esse foi o meu primeiro projeto feito inteiramente pela minha pessoa, desde layout a estilização.  Ele estará sempre em atualização. :relaxed:
+### Então esse foi o meu primeiro projeto feito inteiramente por mim, desde layout a estilização. Está em constante atualização. :relaxed:
