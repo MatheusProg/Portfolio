@@ -211,7 +211,7 @@ footer .container {
 
     #mobile-menu {
         position: absolute;
-        top: 0.5rem;
+        top: 0.3rem;
         right: 5%;
         transform: translate(5%, 20%);
     }
