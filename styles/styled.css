@@ -144,7 +144,7 @@ main {
     border-radius: 10px;
 }
 
-.aboult {
+#aboult {
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -164,6 +164,9 @@ footer .container {
     height: 70px;
     margin-top: 20px;
     padding: 0 20px;
+}
+footer h5 a {
+    color: #3eb3fc;
 }
 
 /* area respossiva */
@@ -236,15 +239,66 @@ footer .container {
         transform: translateY(-8px) rotate(-45deg)
     }
 
+    /* Apresented area */
+    .apresented {
+        height: 41vh;
+    }
+    .apresented .container{
+        margin: auto 1rem;
+        width: 300px;
+        height: auto;
+    }
+
+    .title {
+        color: #fff;
+        font-family: 'Risque', serif;
+        letter-spacing: 1px;
+        font-weight: 800;
+        font-size: 1.5rem;
+    }
+    .sub-title {
+        color: #fff;
+        font-family: 'Risque', serif;
+        font-weight: 300;
+        font-size: 1rem;
+    }
+
+    /* Works area */
+
+    #works .container {
+        margin: 12px 0 0 0;
+    }
+
+    #works .cards {
+        margin-top: 12px;
+    }
+
+    /* Aboult area */
+
+    #aboult {
+        margin-top: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #aboult .container {
+        margin: 0;
+    }
+
+    /* Footer area */
+
     footer .container {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         text-align: center;
-        padding-top: 0.7rem;
+        padding-top: 0.2rem;
     }
     footer h5 {
         margin-top: 2px;
+    }
+    footer h5 a {
+        color: #3eb3fc;
     }
 }
