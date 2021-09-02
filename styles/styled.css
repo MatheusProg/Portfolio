@@ -23,6 +23,7 @@ header .container {
     letter-spacing: 2px;
     cursor: pointer;
 }
+
 #navbar-logo:hover {
     color: #c6c6c6;
     transition: all 0.2s ease-out;
@@ -42,6 +43,7 @@ header .container {
     font-family: 'Rubik', sans-serif;
     font-weight: 600;
 }
+
 .nav-links:hover {
     color: #c6c6c6;
     transition: all 0.2s ease-out;
@@ -58,7 +60,7 @@ header .container {
 /* apresented area */
 
 .apresented {
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('../images/background.png');
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('../images/background.png');
     background-size: cover;
     width: 100%;
     height: 40vh;
@@ -74,6 +76,7 @@ header .container {
     font-weight: 800;
     font-size: 2rem;
 }
+
 .sub-title {
     color: #fff;
     font-family: 'Risque', serif;
@@ -102,13 +105,15 @@ header .container {
     margin-left: 10px;
     justify-content: center;
 }
+
 .button {
     color: #fff;
     border: 1px solid #fff;
     border-radius: 10px;
     padding: 7px;
 }
-.button:nth-child(1){
+
+.button:nth-child(1) {
     margin-right: 10px;
 }
 
@@ -125,6 +130,7 @@ main {
     width: 100%;
     margin: 0;
 }
+
 #works .container {
     display: flex;
     align-items: center;
@@ -134,10 +140,12 @@ main {
 .cards {
     margin-top: 20px
 }
+
 .cards .card {
     background: #fff;
     color: black;
-    width: 300px; /* half-width */
+    width: 300px;
+    /* half-width */
     height: 250px;
     margin-right: 20px;
     text-align: center;
@@ -156,8 +164,9 @@ footer {
     width: 100vw;
     background: rgba(15, 31, 44, 0.49);
 }
+
 footer .container {
-    
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -165,13 +174,14 @@ footer .container {
     margin-top: 20px;
     padding: 0 20px;
 }
+
 footer h5 a {
     color: #3eb3fc;
 }
 
 /* area respossiva */
 
-@media screen and ( max-width: 700px ) {
+@media screen and (max-width: 700px) {
     header {
         position: relative;
     }
@@ -202,12 +212,13 @@ footer h5 a {
         width: 100%;
         display: table;
     }
+
     .nav-links:hover {
         background-color: #282531;
         color: white;
         transition: all 0.4s ease-out;
     }
-    
+
     .navbar {
         width: 100%;
     }
@@ -223,6 +234,7 @@ footer h5 a {
         display: block;
         cursor: pointer;
     }
+
     .menu-toggle:hover {
         cursor: pointer;
     }
@@ -243,7 +255,8 @@ footer h5 a {
     .apresented {
         height: 41vh;
     }
-    .apresented .container{
+
+    .apresented .container {
         margin: auto 1rem;
         width: 300px;
         height: auto;
@@ -256,6 +269,7 @@ footer h5 a {
         font-weight: 800;
         font-size: 1.5rem;
     }
+
     .sub-title {
         color: #fff;
         font-family: 'Risque', serif;
@@ -281,6 +295,7 @@ footer h5 a {
         justify-content: center;
         align-items: center;
     }
+
     #aboult .container {
         margin: 0;
     }
@@ -295,9 +310,11 @@ footer h5 a {
         text-align: center;
         padding-top: 0.2rem;
     }
+
     footer h5 {
         margin-top: 2px;
     }
+
     footer h5 a {
         color: #3eb3fc;
     }
