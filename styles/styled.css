@@ -137,23 +137,22 @@ main {
     justify-content: center
 }
 
-.cards {
-    margin-top: 20px
+#works .cards {
+    margin-top: 20px;
 }
 
 .cards .card {
-    background: #fff;
     color: black;
     width: 300px;
-    /* half-width */
     height: 250px;
-    margin-right: 20px;
+    margin-right: 22px;
     text-align: center;
+
+    background: #c4c4c4;
     border-radius: 10px;
 }
 
 #aboult {
-    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -285,6 +284,7 @@ footer h5 a {
 
     #works .cards {
         margin-top: 12px;
+        height: auto;
     }
 
     /* Aboult area */
