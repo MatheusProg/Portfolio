@@ -214,12 +214,8 @@ footer h5 { font-family: serif; font-size: 11px; }
 
 footer .container {
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 70px;
-    margin-top: 20px;
-    padding: 0 20px;
+    text-align: center;
+    padding: 20px;
 }
 
 footer h5 a {
@@ -350,21 +346,4 @@ footer h5 a {
     .bio { margin-top: 12px; }
 
     /* Footer area */
-
-    footer .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        text-align: center;
-        padding-top: 0.2rem;
-    }
-
-    footer h5 {
-        margin-top: 2px;
-    }
-
-    footer h5 a {
-        color: #3eb3fc;
-    }
 }
