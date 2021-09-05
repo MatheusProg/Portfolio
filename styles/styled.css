@@ -172,7 +172,7 @@ main {
     margin-top: 20px;
 }
 
-#aboult .profile .profile_avatar{
+#aboult .profile .profile_avatar {
     width: 152px;
     height: 150px;
     border-radius: 50%;
@@ -186,21 +186,24 @@ main {
     text-align: center;
     align-items: center;
     justify-content: space-between;
+    padding: 35px;
 }
+
 .bio .name_profile {
     font-size: 22px;
 }
+
 .bio .cargo_profile {
     margin-top: 2px;
     font-size: 11px;
 }
+
 .bio p {
     margin-top: 12px;
     color: white;
     font-family: serif;
     letter-spacing: -1px;
     font-size: 15px;
-
 }
 
 /* Footer area */
@@ -209,11 +212,12 @@ footer {
     background: rgba(15, 31, 44, 0.49);
 }
 
-footer h2 { font-size: 15px; }
-footer h5 { font-family: serif; font-size: 11px; }
+footer h5 {
+    font-family: serif;
+    font-size: 11px;
+}
 
 footer .container {
-
     text-align: center;
     padding: 20px;
 }
@@ -332,8 +336,10 @@ footer h5 a {
     }
 
     /* Aboult area */
-    #aboult { margin-top: 12px; }
-    
+    #aboult {
+        margin-top: 12px;
+    }
+
     #aboult .profile {
         display: flex;
         flex-direction: column;
@@ -341,9 +347,14 @@ footer h5 a {
         margin-top: 12px;
     }
 
-    #aboult .profile_avatar { margin-top: 12px; }
+    #aboult .profile_avatar {
+        margin-top: 12px;
+    }
 
-    .bio { margin-top: 12px; }
+    .bio {
+        margin-top: 12px;
+        padding: 0;
+    }
 
     /* Footer area */
 }
