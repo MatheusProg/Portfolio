@@ -161,6 +161,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 #aboult .profile {
@@ -187,6 +188,7 @@ main {
     align-items: center;
     justify-content: space-between;
     padding: 35px;
+    width: 70%;
 }
 
 .bio .name_profile {
@@ -354,6 +356,7 @@ footer h5 a {
     .bio {
         margin-top: 12px;
         padding: 0;
+        width: 80%;
     }
 
     /* Footer area */
