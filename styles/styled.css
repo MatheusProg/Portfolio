@@ -4,6 +4,10 @@ header {
     box-shadow: 0px 5px 4px rgba(167, 152, 152, 0.22);
 }
 
+.title_ {
+    text-align: center;
+}
+
 header .container {
     display: grid;
     grid-template-columns: 0.2fr auto 1fr;
@@ -205,6 +209,61 @@ main {
     color: white;
     font-family: serif;
     letter-spacing: -1px;
+    font-size: 15px;
+}
+
+/* My services */
+#services{
+    margin-top: 20px;
+    background: #0B1924;
+}
+
+#services .title_ {
+    padding-top: 1px;
+    font-family: 'Risque', serif;
+}
+
+.services_cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.services_cards .serv-card {
+    display: flex;
+    flex-direction: column;
+    width: 185px;
+    height: 160px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 11px -1px rgba(255, 147, 30, 0.46);
+    border-radius: 10px;
+}
+
+.services_cards .serv-card img {
+    width: 40px;
+    height: auto;
+    left: 50px;
+    margin-left: 10px;
+}
+
+.services_cards .serv-card h4 {
+    margin: 10px;
+    color:#000000;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.services_cards .serv-card p {
+    width: 150px;
+    margin: 0 10px 0;
+    text-align: left;
     font-size: 15px;
 }
 
