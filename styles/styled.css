@@ -154,7 +154,7 @@ main {
     text-align: center;
 
     border: 1px solid #373636;
-    box-shadow: 5px 5px 5px -1px rgba(255, 147, 30, 0.46);
+    box-shadow: 5px 5px 11px -1px rgba(255, 147, 30, 0.46);
     background: #c4c4c4;
     border-radius: 10px;
 }
@@ -267,6 +267,34 @@ main {
     font-size: 15px;
 }
 
+/* Skills area */
+.skills .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+
+}
+
+.cardSkill {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 195px;
+    align-items: center;
+}
+.cardSkill .title {
+    padding-bottom: 10px;
+}
+
+.skill h3 {
+    padding-bottom: 5px;
+}
+
+.skill img {
+    width: 300px;
+}
+
 /* Footer area */
 footer {
     width: 100vw;
@@ -275,7 +303,7 @@ footer {
 
 footer h5 {
     font-family: serif;
-    font-size: 11px;
+    font-size: 15px;
 }
 
 footer .container {
