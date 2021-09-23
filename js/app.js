@@ -18,3 +18,19 @@ var flkty = new Flickity( elem, {
   autoPlay: true,
   pageDots: false
 });
+
+// Modal ===================
+
+const Modal = {
+  open(){
+    // Abre o modal e add a class active
+    document.querySelector('.modal-overlay')
+    .classList.add('active')
+  },
+  close(){
+    // Fecha o modal e remove a class active
+    document.querySelector('.modal-overlay')
+    .classList.remove('active')
+  }
+
+}

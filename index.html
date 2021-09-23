@@ -39,7 +39,9 @@
           </div>
           <ul class="nav-menu">
             <li><a href="/" class="nav-links">HOME</a></li>
-            <li><a href="/contacts" class="nav-links">CONTACTS</a></li>
+            <li>
+              <a href="#" onclick="Modal.open()" class="nav-links">CONTACTS</a>
+            </li>
             <li><a href="/aboultme" class="nav-links">ABOULT ME</a></li>
           </ul>
         </div>
@@ -154,39 +156,34 @@
             <div class="contact-basic">
               <div class="input-group">
                 <label class="sr-only" for="name"></label>
-                <input 
-                  type="text" 
-                  id="name" 
-                  name="name"
-                  placeholder="Nome"
-                />
+                <input type="text" id="name" name="name" placeholder="Nome" />
               </div>
-  
+
               <div class="input-group">
                 <label class="sr-only" for="lastname"></label>
-                <input 
-                  type="text" 
-                  id="lastname" 
+                <input
+                  type="text"
+                  id="lastname"
                   name="lastname"
                   placeholder="Sobre Nome"
                 />
               </div>
-  
+
               <div class="input-group">
                 <label class="sr-only" for="phone"></label>
-                <input 
-                  type="text" 
-                  id="phone" 
+                <input
+                  type="text"
+                  id="phone"
                   nome="phone"
                   placeholder="Telefone"
                 />
               </div>
-  
+
               <div class="input-group">
                 <label class="sr-only" for="email"></label>
-                <input 
-                  type="text" 
-                  id="email" 
+                <input
+                  type="text"
+                  id="email"
                   name="email"
                   placeholder="Email"
                 />
@@ -195,9 +192,9 @@
             <!-- ======================================== -->
             <div class="input-group">
               <label class="sr-only" for="company"></label>
-              <input 
-                type="text" 
-                id="company" 
+              <input
+                type="text"
+                id="company"
                 name="company"
                 placeholder="Grupo ou Empresa"
               />
@@ -205,23 +202,25 @@
 
             <div class="input-group">
               <label class="sr-only" for="shot"></label>
-              <textarea 
+              <textarea
                 type="text"
-                id="shot" 
+                id="shot"
                 name="shot"
-                rows="5" 
+                rows="5"
                 placeholder="Um pouco sobre do que se trata."
               ></textarea>
             </div>
-            <button type="submit" class="send"> <img src="./images/icon_send.svg"> Enviar</button>
+            <button onclick="Modal.close()" type="submit" class="send">
+              <img src="./images/icon_send.svg" /> Enviar
+            </button>
             <div class="contact">
               <h4>Contatos</h4>
               <a>
-                <img src="./images/icon_email.svg" alt="email">
+                <img src="./images/icon_email.svg" alt="email" />
                 matheus-dias1@outlook.com
               </a>
               <a>
-                <img src="./images/icon_phone.svg" alt="email">
+                <img src="./images/icon_phone.svg" alt="email" />
                 (71) 9 81867261
               </a>
             </div>
