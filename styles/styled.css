@@ -295,6 +295,115 @@ main {
     width: 300px;
 }
 
+/* Modal ========================= */
+.modal-overlay {
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 999;
+}
+
+.modal {
+    background: #fff;
+
+    width: 90%;
+    max-width: 500px;
+
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+
+    position: relative;
+    z-index: 1;
+}
+/* Form =========================== */
+#form {
+    max-width: 400px;
+}
+#form form {
+    margin: 10px auto;
+}
+
+#form h2 {
+    margin-top: -40px;
+    text-align: center;
+}
+
+#form form input {
+    border: none;
+    border-radius: 10px;
+
+    padding: 0.8rem;
+
+    width: 100%;
+    background: #CCCCCCCC
+}
+
+.input-group {
+    margin-top: 0.8rem;
+}
+form textarea {
+    background: #CCCCCCCC;
+    border: none;
+    border-radius: 10px;
+    padding: 0.8rem;
+    width: 100%;
+}
+
+form .contact-basic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.8rem;
+    margin-top: 20px;
+}
+
+#form img {
+    width: 20px;
+    margin-right: 5px;
+}
+/* ========================== */
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h4 {
+    color: black;
+    margin: 10px
+}
+.contact a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+form .send {
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color: #0B1924;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    left: 299px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: 'Risque', serif;
+    font-size: 20px;
+}
+
 /* Footer area */
 footer {
     width: 100vw;
