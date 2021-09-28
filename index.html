@@ -152,20 +152,27 @@
       <div class="modal">
         <div id="form">
           <h2>Enviar uma menssagem</h2>
-          <form action="">
+          <form action="https://formspree.io/f/xvodypja" method="post">
             <div class="contact-basic">
               <div class="input-group">
                 <label class="sr-only" for="name"></label>
-                <input type="text" id="name" name="name" placeholder="Nome" />
+                <input 
+                  type="text" 
+                  id="nameId" 
+                  name="name" 
+                  placeholder="Nome" 
+                  required="required"
+                />
               </div>
 
               <div class="input-group">
                 <label class="sr-only" for="lastname"></label>
                 <input
                   type="text"
-                  id="lastname"
+                  id="lastnameId"
                   name="lastname"
-                  placeholder="Sobre Nome"
+                  placeholder="Sobrenome"
+                  required="required"
                 />
               </div>
 
@@ -186,6 +193,7 @@
                   id="email"
                   name="email"
                   placeholder="Email"
+                  required="required"
                 />
               </div>
             </div>
@@ -197,6 +205,7 @@
                 id="company"
                 name="company"
                 placeholder="Grupo ou Empresa"
+                required="required"
               />
             </div>
 
@@ -204,10 +213,11 @@
               <label class="sr-only" for="shot"></label>
               <textarea
                 type="text"
-                id="shot"
-                name="shot"
+                id="messageId"
+                name="message"
                 rows="5"
-                placeholder="Um pouco sobre do que se trata."
+                placeholder="Mensagem..."
+                required="required"
               ></textarea>
             </div>
             <button onclick="Modal.close()" type="submit" class="send">

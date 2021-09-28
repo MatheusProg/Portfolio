@@ -398,7 +398,7 @@ form .send {
     width: 100px;
     height: 35px;
     border: none;
-    background-color: #0B1924;
+    background: #0B1924;
     border-radius: 50px;
     color: white;
     display: flex;
@@ -409,7 +409,7 @@ form .send {
     margin-top: 10px;
     cursor: pointer;
     font-family: 'Risque', serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /* Footer area */
