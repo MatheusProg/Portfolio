@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="./styles/globalstyle.css" />
     <link rel="stylesheet" href="./styles/styled.css" />
     <title>Sr. Dias programer</title>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
   </head>
 
   <body>
@@ -152,7 +154,8 @@
       <div class="modal">
         <div id="form">
           <h2>Enviar uma menssagem</h2>
-          <form action="https://formspree.io/f/xvodypja" method="post">
+          <!-- https://formspree.io/f/xvodypja -->
+          <form method="post">
             <div class="contact-basic">
               <div class="input-group">
                 <label class="sr-only" for="name"></label>
@@ -220,7 +223,7 @@
                 required="required"
               ></textarea>
             </div>
-            <button onclick="Modal.close()" type="submit" class="send">
+            <button onclick="Modal.close()" class="send">
               <img src="./images/icon_send.svg" /> Enviar
             </button>
             <div class="contact">

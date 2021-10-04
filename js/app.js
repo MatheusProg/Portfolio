@@ -6,6 +6,18 @@ menu.addEventListener('click', function() {
     menuLinks.classList.toggle('active');
 })
 
+function sendEmail() {
+  Email.send({
+    SecureToken : "14c51cfe-7f3d-4d14-ac53-476a101334c6",
+    To : 'matheus-dias1@outlook.com',
+    From : "matheusd61@gmail.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+}
+
 
 // Flickity
 
@@ -28,6 +40,7 @@ const Modal = {
     .classList.add('active')
   },
   close(){
+    sendEmail()
     // Fecha o modal e remove a class active
     document.querySelector('.modal-overlay')
     .classList.remove('active')
