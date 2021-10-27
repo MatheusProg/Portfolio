@@ -439,6 +439,10 @@ footer h5 a {
         position: relative;
     }
 
+    #navbar-logo {
+        margin-left: 10px;
+    }
+
     .nav-menu {
         display: grid;
         grid-template-columns: auto;
