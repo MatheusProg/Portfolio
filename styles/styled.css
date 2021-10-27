@@ -310,7 +310,7 @@ main {
     justify-content: center;
 
     opacity: 1;
-    /* visibility: hidden; */
+    visibility: hidden;
 
     z-index: 999;
 }
@@ -507,6 +507,7 @@ footer h5 a {
     /* Apresented area */
     .apresented {
         height: 41vh;
+        width: 100vw;
     }
 
     .apresented .container {
@@ -563,5 +564,24 @@ footer h5 a {
         width: 80%;
     }
 
+    /* My services area */
+    #services {
+        height: auto;
+    }
+    .services_cards {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    /* kill area */
+    .skills .container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
     /* Footer area */
+
 }
